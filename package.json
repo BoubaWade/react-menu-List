@@ -1,7 +1,7 @@
 {
-  "name": "typescript-components-by-rupert",
-  "version": "1.0.0",
-  "description": "A simple component library to demonstrate publishing to npm",
+  "name": "react-menu-dropdown-list",
+  "version": "1.0.2",
+  "description": "`React-Menu-DropDown` est un composant React qui offre une liste déroulante de sélection d'options avec prise en charge de l'accessibilité au clavier.",
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf dist",
@@ -9,23 +9,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fildon/typescript-components-by-rupert.git"
+    "url": "https://github.com/BoubaWade/React-DropDown-List.git"
   },
   "keywords": [
     "react",
-    "typescript"
+    "typescript",
+    "DropDown"
   ],
   "author": {
-    "name": "Rupert Foggo McKay",
-    "url": "https://fildon.me/"
+    "name": "boubawade"
   },
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/fildon/typescript-components-by-rupert/issues"
-  },
-  "homepage": "https://github.com/fildon/typescript-components-by-rupert#readme",
+  "license": "MIT",
+  "bugs": {},
+  "homepage": "https://github.com/BoubaWade/React-DropDown-List.git#README",
   "devDependencies": {
+    "@types/node": "^20.11.4",
     "@types/react": "^17.0.14",
+    "css-loader": "^6.9.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "typescript": "^4.3.5"

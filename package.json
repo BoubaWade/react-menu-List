@@ -1,6 +1,6 @@
 {
   "name": "react-menu-dropdown-list",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "`React-Menu-DropDown` est un composant React qui offre une liste déroulante de sélection d'options avec prise en charge de l'accessibilité au clavier.",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BoubaWade/React-DropDown-List.git"
+    "url": "https://github.com/BoubaWade/react-menu-List.git"
   },
   "keywords": [
     "react",
@@ -21,7 +21,7 @@
   },
   "license": "MIT",
   "bugs": {},
-  "homepage": "https://github.com/BoubaWade/React-DropDown-List.git#README",
+  "homepage": "https://github.com/BoubaWade/react-menu-List.git#README",
   "devDependencies": {
     "@types/node": "^20.11.4",
     "@types/react": "^17.0.14",

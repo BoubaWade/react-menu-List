@@ -16,8 +16,6 @@ import {MenuSelect} from "react-menu-dropdown-list"
 <MenuSelect
   options={[]}
   onSelect={() => {}}
-  label=""
-  labelClassName=""
   classNameContainer=""
   classNameButton=""
   classNameList=""
@@ -30,8 +28,6 @@ import {MenuSelect} from "react-menu-dropdown-list"
 - `options` (Array): Tableau d'options à afficher dans la liste déroulante.
 - `onSelect` (Function): Fonction de rappel appelée lorsqu'une option est sélectionnée.
 - `classNameContainer` (String): Classe CSS pour le conteneur principal du menu.
-- `label` (String): Étiquette pour le menu.
-- `labelClassName` (String): Classe CSS pour l'étiquette.
 - `classNameButton` (String): Classe CSS pour le bouton de bascule du menu.
 - `classNameList` (String): Classe CSS pour la liste des options.
 - `classNameItem` (String): Classe CSS pour chaque élément dans la liste des options.

@@ -5,8 +5,6 @@ interface MenuSelectProps {
   options: string[];
   onSelect: (option: string) => void;
   classNameContainer?: string;
-  label: string;
-  labelClassName?: string;
   classNameButton?: string;
   classNameList?: string;
   classNameItem?: string;
@@ -16,8 +14,6 @@ export const MenuSelect: React.FC<MenuSelectProps> = ({
   options,
   onSelect,
   classNameContainer,
-  label,
-  labelClassName,
   classNameButton,
   classNameList,
   classNameItem,
@@ -77,8 +73,6 @@ export const MenuSelect: React.FC<MenuSelectProps> = ({
   }, []);
 
   return (
-    <>
-      <span className={labelClassName}>{label}</span>
       <section
         className={classNameContainer}
         onKeyDown={handleKeyDown}
@@ -113,6 +107,5 @@ export const MenuSelect: React.FC<MenuSelectProps> = ({
           </ul>
         )}
       </section>
-    </>
   );
 };
